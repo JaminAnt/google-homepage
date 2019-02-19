@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* top navbar */
+
+#top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#top-nav ul {
+  list-style: none;
+  padding: 0 20px 0 20px;
+}
+
+#top-nav li {
+  display: inline;
+}
+
+#top-nav #top-nav-left li {
+  padding-right: 20px;
+}
+
+#top-nav #top-nav-right li {
+  padding-left: 20px;
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.95em;
+}
+
+#top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* main search section */
+
+img {
+  width: 280px;
+  height: 90px;
+  margin: 45px 0 25px 0;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+#main-searchbox {
+  display: flex;
+  justify-content: center;
+}
+
+#main-search {
+  width: 500px;
+  height: 50px;
+  border: 1px solid #e6e6e6;
+  border-bottom: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#google-search {
+  padding-right: 5px;
+}
+
+#google-search button {
+  padding: 10px 30px 10px 30px;
+  color: #595959;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 4px;
+}
+
+#feeling-lucky {
+  padding-left: 5px;
+}
+
+#feeling-lucky button {
+  padding: 10px 30px 10px 30px;
+  color: #595959;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 4px;
+}
+
+/* footer */
+
+#australia {
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 0;
+  border: 1px solid #e6e6e6;
+  margin-top: 275px;
+}
+
+#Aus {
+  padding-left: 30px;
+}
+
+#bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 0;
+  border: 1px solid #e6e6e6;
+}
+
+#bottom-nav ul {
+  list-style: none;
+  padding: 0 20px 0 20px;
+  padding-left: 30px;
+}
+
+#bottom-nav li {
+  display: inline;
+}
+
+#bottom-nav #bottom-nav-left li {
+  padding-right: 20px;
+}
+
+#bottom-nav #bottom-nav-right li {
+  padding-left: 20px;
+}
